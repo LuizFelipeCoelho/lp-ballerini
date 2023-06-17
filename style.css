@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/* font-family: 'Righteous', cursive;
+font-family: 'Sarala', sans-serif; */
+
+:root{
+    --font1: 'Righteous', cursive;
+    --font2: 'Sarala', sans-serif;
+    --cor1: #2f2325fa;
+    --cor2: #8E5D52;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    height: 100vh;
+    background: linear-gradient(to top right, var(--cor1), var(--cor2));
+}
